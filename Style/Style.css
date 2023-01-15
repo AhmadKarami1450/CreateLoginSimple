@@ -1,0 +1,75 @@
+*{
+    direction: rtl;
+margin: 0;
+padding: 0;
+}
+
+@font-face {
+    font-family:'IranFont' ;
+    src: url('../Utility/Font/Suls.ttf') format(truetype);
+}
+
+
+body{
+    background-color: #ffffff;
+}
+
+#Login .login_Item form {
+    background-color: #ffffff;
+   font-family: 'IranFont';
+   text-align: center;
+   width: 35%;
+   margin: 0 auto;
+   padding: 80px;
+   margin-top: 45px;
+   border-radius: 5px;
+   box-shadow: 6px 0px 11px 8px #222;
+}
+
+#Login .login_Item form input[type=text] ,input[type=password]{
+    margin: 10px;
+    width: 70%;
+    height: 35px;
+    padding: 8px;
+    height: 40px;
+    font-family: 'IranFont';
+    font-size: 18;
+  
+    border-radius: 5px;
+    outline: none;
+    border:1px solid rgb(81, 202, 125) ;
+    
+
+}
+
+#Login .login_Item form input[type=button]{
+    margin: 10px;
+    width: 30%;
+    height: 35px;
+    padding: 1px;
+    height: 40px;
+    font-family: 'IranFont';
+    font-size: 18;
+  
+    border-radius: 5px;
+    outline: none;
+    border:1px solid rgb(81, 202, 125) ;
+    
+
+}
+
+#OtherReg {
+    margin: 40px;
+text-align: center;
+
+}
+
+#OtherReg a{
+    color: black;
+   text-decoration: none;
+   font-size: 18;
+   font-family: 'IranFont';
+}
+#OtherReg a:hover{
+ color: red;
+}
